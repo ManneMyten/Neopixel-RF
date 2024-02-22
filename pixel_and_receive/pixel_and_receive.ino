@@ -3,11 +3,11 @@
 #include <avr/power.h> // Krävs för 16 MHz Adafruit Trinket
 #endif
 
-// Vilken pinne på Arduino är ansluten till NeoPixel ringen?
-#define PIN 9
 
-// Hur många NeoPixels är anslutna till Arduino?
-#define NUMPIXELS 24 ringstorlek
+#define PIN 9 // Vilken pinne på Arduino är ansluten till NeoPixel ringen?
+
+
+#define NUMPIXELS 24 // Hur många NeoPixels är anslutna till Arduino?
 
 // När NeoPixel-biblioteket ställs in, talar vi om för det hur många pixlar,
 // och vilken pin att använda för att skicka signaler. 
